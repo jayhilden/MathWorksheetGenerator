@@ -262,12 +262,9 @@ function printForm($numerator, $denominator, $actionType, $numberToPrint) {
 function printHead($fontSize) {
 	print "
 	<html>
-	<title>Math Problem Generator, created by Jay Hilden</title>
+	<title>Math Problem Generator</title>
 	<head>
 		<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.min.js'></script>
-		<!--
-		<link rel='stylesheet' type='text/css' href='main.css' />
-		-->
 		<style type='text/css'>
 	@media print {
 		.noprint {display:none !important;}
@@ -343,7 +340,7 @@ function printHead($fontSize) {
 	<script type='text/javascript'>
 	
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-28474929-1']);
+	  _gaq.push(['_setAccount', '']);
 	  _gaq.push(['_trackPageview']);
 	
 	  (function() {
