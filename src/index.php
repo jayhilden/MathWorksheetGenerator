@@ -2,7 +2,7 @@
 //error_reporting(E_STRICT);
 
 
-
+$schoolName = "Robbinsdale Schools";
 $numerator; $denominator;
 
 $numberToPrint = $_GET["numberToPrint"];
@@ -80,7 +80,7 @@ function generate($numberators, $denominators, $action, $across, $down) {
 	$student = "
 		<table border='0' class='headerTable'>
 			<tr>
-				<td align='left'>Robbinsdale Schools Formative Skill Check $uc</td>
+				<td align='left'>$schoolName Formative Skill Check $uc</td>
 				<td align='right'>
 					Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<br/>
@@ -94,7 +94,7 @@ function generate($numberators, $denominators, $action, $across, $down) {
 	$answerKey = "
 		<table border='0' style='page-break-before:always;' class='headerTable'>
 			<tr>
-				<td align='left'>Robbinsdale Schools Formative Skill Check $uc ANSWER KEY</td>
+				<td align='left'>$schoolName Formative Skill Check $uc ANSWER KEY</td>
 				<td align='right'> &nbsp;</td>
 			</tr>
 		</table>
