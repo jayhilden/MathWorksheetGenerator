@@ -1,6 +1,8 @@
 # Math Worksheet Generator
 A tool for elementary school teachers to generate printable math worksheets.  This tool will generate both the student worksheet as well as the answer key for the teacher.  Each time the tool is run it will generate a new, random set of math problems.
 
+A working sample can be found here: http://math.jedijay.net/math/index.php
+
 Originally developed for the Robbinsdale School District in Minnesota.  Suggestions are welcome, as a pull requests!
 
 #Setup
